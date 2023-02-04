@@ -1,0 +1,23 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1.index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wenyisui/yisui-react-jingjin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wenyisui/yisui-react-jingjin/issues"
+  },
+  "homepage": "https://github.com/wenyisui/yisui-react-jingjin#readme",
+  "dependencies": {
+    "vite": "^4.1.1"
+  }
+}

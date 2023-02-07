@@ -1,12 +1,14 @@
-import React,{Component} from 'react';
+import React,{Component, Suspense, lazy} from 'react';
+import Loading from './14.Loading';
+const MainConponent = lazy(()=>import('./14.Main'));
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        123
-      </div>
-    );
+    render() {
+      return (
+         <Suspense fallback={ <Loading /> }>
+            <MainConponent  />
+         </Suspense>
+      );
   }
 }
 

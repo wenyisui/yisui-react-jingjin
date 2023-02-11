@@ -10,7 +10,7 @@
  *  7. HOC不关心数据如何使用，包裹组件不关心数据从哪里来
  *  8. HOC和包裹组件直接唯一的契合点就是props
  * 
- *  高内聚 低耦合
+ *   高内聚 低耦合
  */
 
 function listHoc (WrapperComponent, fetchListData) {
